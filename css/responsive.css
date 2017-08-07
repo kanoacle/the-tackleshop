@@ -1,0 +1,143 @@
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#FFF !important;
+}
+
+.navbar-toggle {
+    border:2px solid #FFF;
+}
+
+
+@media (max-width: 768px){
+  .content {
+	padding: 30% 0 0;
+	}
+
+}
+
+@media (min-width:800px) {
+    .on .sub-title {
+    display:none;
+}
+}
+
+@media (max-width:1000px) {
+    #tf-about .col-md-6 {
+  text-align: center;
+}
+    .fish-photos .col-sm-4 {
+        width:100%;
+    }
+
+
+#tf-about .section-title hr {
+float:none !important;
+}
+
+#tf-about img {
+  margin: 0 auto 40px auto;
+}
+
+#tf-menu a.navbar-brand {
+    font-size:20px !important;
+}
+
+#tf-menu.navbar-default .navbar-nav > li > a {
+    font-size:16px;
+}
+
+}
+
+@media screen and (max-width:1020px) {
+    .pull-left, .pull-right {
+        float:none !important;
+    }
+
+    .footer-social, .fnav {
+        text-align:center;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color:transparent !important;
+        border:none !important;
+        margin-top:10px;
+    }
+
+    .navbar-collapse {
+        box-shadow:none !important;
+    }
+
+    #tf-brands, #tf-home {
+        background-attachment:scroll !important;
+    }
+}
+
+
+@media (max-width:555px) {
+    .navbar-brand {
+        font-size:18px !important;
+    }
+}
+
+@media (max-width: 603px){
+#tf-menu.navbar-default {
+	background-color: #0077be;
+	}
+#tf-works li.pull-right, #tf-works li.pull-left {
+    margin-top: 10px;
+    float: none !important;
+    text-align: center;
+    display: block;
+}
+/*label{
+    float: none !important
+}*/
+
+.pull-left.fnav,
+.pull-right.fnav {
+    float: none !important;
+    text-align: center;
+}
+
+.hover-bg .hover-text {
+    padding: 12% 10%;
+}
+}
+@media (max-width: 360px){
+.hover-bg .hover-text {
+    padding: 22% 10%;
+}
+}
+
+@media (max-width:365px) {
+    #tf-menu a.navbar-brand {
+        font-size:16px !important;
+    }
+}
+
+@media (max-width:699px) {
+#tf-brands .row {
+    margin-bottom:0 !important;
+}
+
+#tf-menu a.navbar-brand {
+    line-height:1.1em;
+    margin-top:-15px;
+    font-size:18px !important;
+}
+}
+
+@media (max-width:570px) {
+    #tf-menu a.navbar-brand {
+        font-size:18px !important;
+    }
+
+    .logo-img {
+        width:30px !important;
+        margin-top:15px;
+    }
+
+    .col-md-4.service > img {
+    max-width: 90%;
+}
+
+}
